@@ -1,0 +1,20 @@
+<div class="card">
+  <span class="badge badge-secondary">{{ date | uppercase }}</span>
+
+  <div>
+    <div>
+      <img [src]="icon">
+    </div>
+
+    <div>
+      <div>{{ weather.minTemp }} {{ unitSymbol }} - {{ weather.maxTemp }} {{ unitSymbol }}</div>
+      <div>humidity: {{ weather.humidity }} %</div>
+      <div>wind speed: {{ weather.wind.speed }} m/s</div>
+    </div>
+
+    <div>
+      <div>Sunrise: {{ unixToHourMinute(weather.sunrise) }}</div>
+      <div>Sunset: {{ unixToHourMinute(weather.sunset) }}</div>
+    </div>
+  </div>
+</div>
