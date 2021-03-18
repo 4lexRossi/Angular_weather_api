@@ -1,6 +1,6 @@
 # Angular Weather Api
 
-<h1 align="center">Uma aplicação em Angular que busca os dados da [open weather api](https://openweathermap.org/api) e demonstra na tela</h1>
+<h1 align="center">Uma aplicação em Angular que busca os dados da open weather api e demonstra na tela</h1>
 
 Esse repo é um projeto do bootcamp Angular Developer da
 [Digital Innovation One](https://digitalinnovation.one/sign-up?ref=QFX2ZVP4RU)
