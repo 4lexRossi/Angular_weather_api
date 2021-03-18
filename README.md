@@ -1,4 +1,4 @@
-# Alos Weather
+# Angular Weather Api
 
 <h1 align="center">Uma aplicação em Angular que busca os dados da [open weather api](https://openweathermap.org/api) e demonstra na tela</h1>
 
