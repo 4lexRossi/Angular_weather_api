@@ -12,8 +12,9 @@
              [queryParams]="{lat: bookmark.coord.lat, lon: bookmark.coord.lon}">
             {{ bookmark.name }}
           </a>
-          <button class="btn btn-outline-danger btn-sm pull-right"
+          <button class="btn btn-outline-danger btn-sm pull-right" style="float: right;"
                   (click)="removeBookmark(bookmark.id)"><img src="../../../../../assets/trash.svg" /></button>
+          <br><br>
         </li>
       </ul>
 
