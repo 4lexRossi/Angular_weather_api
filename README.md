@@ -1,4 +1,4 @@
-# Angular Weather Api
+## Angular Weather Api
 
 <h1 align="center">Uma aplicação em Angular que busca os dados da open weather api e demonstra na tela</h1>
 
